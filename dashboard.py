@@ -54,7 +54,7 @@ def main():
         LogSummarizer().summarize()
     
     with tabs[5]:
-        st.markdown("### <span style='color:#76B900'>🔄 Manual testcase to Automated script Convertert</span>", unsafe_allow_html=True)
+        st.markdown("### <span style='color:#76B900'>🔄 Manual testcase to Automated script Converter</span>", unsafe_allow_html=True)
         ManualToAutomation(api_key).convert()
     
     with tabs[6]:  

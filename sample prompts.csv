@@ -1,0 +1,37 @@
+AI QA Assistant Prompt Examples,
+Category,Prompt
+Basic Feature Testing,"Generate test cases for a login page that requires email and password, with validation for incorrect credentials and successful login."
+Form Validation,"Write test cases to validate a user registration form with fields: username, email, password, confirm password, and mobile number."
+Edge Case Handling,"List edge test cases for an online payment gateway with amount input, card validation, and timeout handling."
+API Testing,Create test scenarios for a GET /products API that returns a list of items based on category filter.
+E-commerce Scenario,"Generate test cases for the 'Add to Cart' feature in an e-commerce platform, including stock availability and price validation."
+Negative Testing,Write negative test cases for a file upload module with file size and format constraints.
+Mobile Responsiveness,Suggest UI test cases for checking responsiveness of a shopping website on different screen sizes.
+Performance & Load Testing,"Create test scenarios for stress testing a search feature when 10,000+ records exist in the backend."
+,
+Sample Prompts for Test Case Code Generator,
+"Write a Pytest function to test the login functionality where user enters valid username and password, clicks login, and verifies the dashboard is displayed.",
+Generate a TestNG test case for adding an item to a shopping cart and verifying the cart total.,
+"Write a Java TestNG test to search for a product, apply a filter, and check that results match the criteria.",
+Automate an API test in Python using requests module to send a POST request to /api/login and assert the status code is 200.,
+Generate Java code using RestAssured to test a GET API /users and validate the response body contains user list.,
+Create a data-driven Pytest for checking login with multiple invalid credentials and asserting error messages,
+,
+Sample Prompts for Manual _ Automated Script Conversion,
+Open the login page _ Enter valid username and password _ Click login _ Verify dashboard is displayed,
+Go to search page _ Enter product name _ Click search _ Verify search results are displayed with correct items,
+Launch the app _ Navigate to Settings _ Enable dark mode _ Verify the theme changes to dark,
+Open user profile _ Click on Edit _ Update email address _ Save changes _ Verify success message,
+Navigate to cart _ Add 2 items _ Click checkout _ Apply valid coupon code _ Verify discount is applied,
+Visit registration page _ Enter all valid details _ Submit the form _ Check if user is registered and redirected,
+Open blog _ Add a comment _ Submit _ Verify the comment is visible and attributed to the user,
+,
+Sample Prompt for RTM Builder,
+1. The system shall allow users to log in using a valid username and password.,
+2. The application shall provide a search functionality to look up items by name or category.,
+3. Users shall be able to add and remove items from a shopping cart.,
+4. The system shall support payment via credit card and UPI.,
+5. An admin panel shall be available to manage user accounts and product listings.,
+6. Password reset functionality shall be provided via email verification.,
+7. The application shall maintain a session timeout of 15 minutes of inactivity.,
+"8. The order confirmation page shall display order summary, payment details, and estimated delivery date.",

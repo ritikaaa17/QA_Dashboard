@@ -1,0 +1,38 @@
+
+Test Plan: E-Commerce Checkout Flow
+
+Objective:
+Ensure the checkout process in the e-commerce application functions correctly from cart to order confirmation.
+
+Scope:
+- Functional Testing of the cart, address, payment, and confirmation modules
+- Edge case validation for discounts and coupons
+- Negative testing for payment failures
+- Integration with third-party payment gateways
+
+Modules Covered:
+1. Cart Management
+2. Shipping & Billing Address
+3. Payment Gateway (Razorpay, Stripe)
+4. Order Confirmation and Email Notification
+
+Testing Types:
+- Unit Testing (backend APIs)
+- UI Automation (Selenium)
+- Integration Testing
+- Performance Testing
+
+Test Data:
+- Logged-in vs guest users
+- Valid/invalid promo codes
+- Supported and unsupported card types
+
+Exit Criteria:
+- All critical test cases must pass
+- No major/blocker defects
+- Performance thresholds met under 100 concurrent users
+
+Assumptions:
+- API endpoints are stable
+- Test environment mimics production load
+

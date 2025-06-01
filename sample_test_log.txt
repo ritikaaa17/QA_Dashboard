@@ -1,0 +1,14 @@
+
+[2024-05-30 10:01:45] INFO  - Starting test run for module: Login
+[2024-05-30 10:01:46] INFO  - TestCase TC001: Passed
+[2024-05-30 10:01:47] WARNING - TestCase TC002: Unexpected response time (3.5s)
+[2024-05-30 10:01:48] ERROR - TestCase TC003: NullPointerException in UserService.java:57
+[2024-05-30 10:01:49] INFO  - TestCase TC004: Passed
+[2024-05-30 10:01:50] CRITICAL - Database connection lost while executing TC005
+[2024-05-30 10:01:51] INFO  - Retrying database connection...
+[2024-05-30 10:01:52] INFO  - Connection re-established. Continuing test execution.
+[2024-05-30 10:01:53] INFO  - TestCase TC006: Passed
+[2024-05-30 10:01:54] ERROR - TestCase TC007: AssertionError on checkout page total price
+[2024-05-30 10:01:55] WARNING - Deprecated API used in TC008
+[2024-05-30 10:01:56] INFO  - TestCase TC009: Skipped due to dependency failure
+[2024-05-30 10:01:57] INFO  - Test run completed. 6/9 test cases executed.

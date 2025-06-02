@@ -114,4 +114,15 @@ streamlit run dashboard.py
 ```
 api_key = "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"
 ```
+**Sample Prompts**
+
+- Test Plan Summarizer: sample_test_plan.txt
+  
+- AI Log Summarizer: sample_test_log.txt
+  
+- sample prompts.csv
+
+**Screenshots_dashboard_UI.zip**
+
+- contains screenshots of the UI dashboard 
 
